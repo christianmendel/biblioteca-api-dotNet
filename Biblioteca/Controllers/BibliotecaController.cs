@@ -1,8 +1,11 @@
-﻿using Biblioteca.Dto.Livro;
+﻿using Biblioteca.Contracts.Service;
+using Biblioteca.Dto.Livro;
+using Biblioteca.Dto.Usuario;
 using Biblioteca.Mapper;
 using Biblioteca.Models;
+using Biblioteca.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace Biblioteca.Controllers
@@ -12,94 +15,83 @@ namespace Biblioteca.Controllers
     public class BibliotecaController : Controller
     {
 
-        private readonly IMongoDatabase _database;
+        private readonly IBibliotecaService _bibliotecaService;
 
-        public BibliotecaController(IMongoDatabase database)
+        public BibliotecaController(IBibliotecaService bibliotecaService)
         {
-            _database = database;
+            _bibliotecaService = bibliotecaService;
 
         }
 
-
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult> IncluirLivro([FromBody] IncluirLivroRequest incluirLivroRequest)
         {
-            var collection = _database.GetCollection<Livro>("livro");
+            var userId = User.Claims.FirstOrDefault(u => u.Type.Equals("_id"))?.Value;
 
-            Livro novoLivro = MapperLivro.LivroMapperToDto(incluirLivroRequest);
+            var response = await _bibliotecaService.IncluirLivro(incluirLivroRequest, userId);
 
-            await collection.InsertOneAsync(novoLivro);
+            if (!response.IsValid())
+                return NotFound(response.Notifications);
 
             return Ok();
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<List<LivroResponse>>> ListarLivro()
         {
-            var collection = _database.GetCollection<Livro>("livro");
-            var livros = await collection.Find(new BsonDocument()).ToListAsync();
+            var userId = User.Claims.FirstOrDefault(u => u.Type.Equals("_id"))?.Value;
 
-            List<LivroResponse> livrosResponse = new List<LivroResponse>();
+            var response = await _bibliotecaService.ListarLivro(userId);
 
-            foreach (var item in livros)
+            if (!response.All(livro => livro.IsValid()))
             {
-                livrosResponse.Add(MapperLivro.LivroMapperViewDto(item));
+                var notValidBooks = response.Where(livro => !livro.IsValid()).Select(livro => livro.Notifications);
+                return BadRequest(notValidBooks);
             }
 
-            return livrosResponse;
+            return Ok(response);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<LivroResponse>> ObterLivro([FromRoute] string id)
         {
-            var collection = _database.GetCollection<Livro>("livro");
+            var userId = User.Claims.FirstOrDefault(u => u.Type.Equals("_id"))?.Value;
 
-            var filtro = Builders<Livro>.Filter.Eq(x => x._id, id);
+            var response = await _bibliotecaService.ObterLivro(id, userId);
 
-            var livro = await collection.Find(filtro).FirstOrDefaultAsync();
+            if (!response.IsValid())
+                return NotFound(response.Notifications);
 
-            if (livro == null) return NotFound();
-
-            var livroResponse = MapperLivro.LivroMapperViewDto(livro);
-
-            return livroResponse;
+            return Ok(response);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult<LivroResponse>> AlterarLivro([FromRoute] string id, [FromBody] AlterarLivroRequest alterarLivroRequest)
         {
-            var collection = _database.GetCollection<Livro>("livro");
+            var userId = User.Claims.FirstOrDefault(u => u.Type.Equals("_id"))?.Value;
 
-            var filtro = Builders<Livro>.Filter.Eq(x => x._id, id);
+            var response = await _bibliotecaService.AlterarLivro(id, alterarLivroRequest, userId);
 
-            var livro = await collection.Find(filtro).FirstOrDefaultAsync();
+            if (!response.IsValid())
+                return NotFound(response.Notifications);
 
-            if (livro == null) return NotFound();
-
-            var updateDef = Builders<Livro>.Update
-                .Set(x => x.Nome, alterarLivroRequest.Nome)
-                .Set(x => x.Descricao, alterarLivroRequest.Descricao);
-
-            await collection.UpdateOneAsync(filtro, updateDef);
-
-            var livroResponse = MapperLivro.LivroMapperViewDto(livro);
-
-            return livroResponse;
+            return Ok(response);
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeletarLivro([FromRoute] string id)
         {
-            var collection = _database.GetCollection<Livro>("livro");
+            var userId = User.Claims.FirstOrDefault(u => u.Type.Equals("_id"))?.Value;
 
-            var filtro = Builders<Livro>.Filter.Eq(x => x._id, id);
+            var response = await _bibliotecaService.DeletarLivro(id, userId);
 
-            var livro = await collection.Find(filtro).FirstOrDefaultAsync();
-
-            if (livro == null) return NotFound();
-
-            await collection.DeleteOneAsync(filtro);
-
+            if (!response.IsValid())
+                return NotFound(response.Notifications);
 
             return Ok();
         }

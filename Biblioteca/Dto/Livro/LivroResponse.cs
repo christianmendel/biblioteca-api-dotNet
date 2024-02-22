@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Biblioteca.Validations.Notification;
+using System.ComponentModel.DataAnnotations;
 
 namespace Biblioteca.Dto.Livro
 {
-    public class LivroResponse
+    public class LivroResponse: Notifiable
     {
         public string _id { get; set; }
         public string Nome { get; set; }
@@ -10,4 +11,5 @@ namespace Biblioteca.Dto.Livro
         public int Tipo { get; set; }
 
     }
+
 }
