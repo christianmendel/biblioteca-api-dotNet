@@ -1,6 +1,6 @@
 using Biblioteca.Contracts.Service;
 using Biblioteca.Services;
-using Biblioteca.Settings;
+using Biblioteca.Settings.Token;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;

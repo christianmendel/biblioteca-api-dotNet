@@ -6,7 +6,7 @@ using Biblioteca.Settings;
 using Amazon.Runtime.Internal;
 using Biblioteca.Contracts.Service;
 using Biblioteca.Dto.token;
-using Biblioteca.Validations.Notification;
+using Biblioteca.Settings.Validations;
 
 namespace Biblioteca.Controllers
 {

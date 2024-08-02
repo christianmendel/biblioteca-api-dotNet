@@ -1,6 +1,6 @@
 ﻿using Biblioteca.Dto.token;
 using Biblioteca.Dto.Usuario;
-using Biblioteca.Validations.Notification;
+using Biblioteca.Settings.Validations;
 
 namespace Biblioteca.Contracts.Service
 {

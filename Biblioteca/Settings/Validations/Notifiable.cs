@@ -1,4 +1,4 @@
-﻿namespace Biblioteca.Validations.Notification
+﻿namespace Biblioteca.Settings.Validations
 {
     public class Notifiable
     {

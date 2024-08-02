@@ -1,4 +1,4 @@
-﻿using Biblioteca.Validations.Notification;
+﻿using Biblioteca.Settings.Validations;
 
 namespace Biblioteca.Dto.token
 {

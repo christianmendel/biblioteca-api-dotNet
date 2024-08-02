@@ -2,8 +2,7 @@
 using Biblioteca.Dto.Livro;
 using Biblioteca.Mapper;
 using Biblioteca.Models;
-using Biblioteca.Validations.Notification;
-using Microsoft.AspNetCore.Mvc;
+using Biblioteca.Settings.Validations;
 using MongoDB.Driver;
 
 namespace Biblioteca.Services

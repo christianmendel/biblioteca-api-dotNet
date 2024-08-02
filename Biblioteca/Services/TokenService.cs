@@ -1,5 +1,5 @@
 ﻿using Biblioteca.Models;
-using Biblioteca.Settings;
+using Biblioteca.Settings.Token;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;

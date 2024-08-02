@@ -1,4 +1,4 @@
-﻿using Biblioteca.Validations.Notification;
+﻿using Biblioteca.Settings.Validations;
 using System.ComponentModel.DataAnnotations;
 
 namespace Biblioteca.Dto.Livro

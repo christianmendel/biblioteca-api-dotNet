@@ -1,4 +1,4 @@
-﻿namespace Biblioteca.Settings;
+﻿namespace Biblioteca.Settings.Token;
 
 public static class TokenSettings
 {

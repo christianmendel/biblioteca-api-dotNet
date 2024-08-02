@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\",
+  "WorkspaceRootPath": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\christian\\documents\\projects\\biblioteca\\biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\chris\\source\\repos\\biblioteca-api-dotnet\\biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\christian\\documents\\projects\\biblioteca\\biblioteca\\settings\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\settings\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\christian\\documents\\projects\\biblioteca\\biblioteca\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\christian\\documents\\projects\\biblioteca\\biblioteca\\controllers\\bibliotecacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\controllers\\bibliotecacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\christian\\documents\\projects\\biblioteca\\biblioteca\\services\\bibliotecaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\chris\\source\\repos\\biblioteca-api-dotnet\\biblioteca\\services\\bibliotecaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\services\\bibliotecaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\christian\\documents\\projects\\biblioteca\\biblioteca\\dto\\livro\\livroresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\chris\\source\\repos\\biblioteca-api-dotnet\\biblioteca\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\chris\\source\\repos\\biblioteca-api-dotnet\\biblioteca\\settings\\token\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\settings\\token\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\chris\\source\\repos\\biblioteca-api-dotnet\\biblioteca\\controllers\\bibliotecacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\controllers\\bibliotecacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|c:\\users\\chris\\source\\repos\\biblioteca-api-dotnet\\biblioteca\\dto\\livro\\livroresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33E1C071-E220-48D6-8405-50D060224224}|Biblioteca\\Biblioteca.csproj|solutionrelative:biblioteca\\dto\\livro\\livroresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,37 +38,35 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TokenSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Settings\\TokenSettings.cs",
-              "RelativeDocumentMoniker": "Biblioteca\\Settings\\TokenSettings.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Settings\\TokenSettings.cs",
-              "RelativeToolTip": "Biblioteca\\Settings\\TokenSettings.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Settings\\Token\\TokenSettings.cs",
+              "RelativeDocumentMoniker": "Biblioteca\\Settings\\Token\\TokenSettings.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Settings\\Token\\TokenSettings.cs",
+              "RelativeToolTip": "Biblioteca\\Settings\\Token\\TokenSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T16:46:34.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T16:46:34.238Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Services\\UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Services\\UsuarioService.cs",
               "RelativeToolTip": "Biblioteca\\Services\\UsuarioService.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwD8AAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T11:04:09.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T11:04:09.01Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "LivroResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Dto\\Livro\\LivroResponse.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Dto\\Livro\\LivroResponse.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Dto\\Livro\\LivroResponse.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Dto\\Livro\\LivroResponse.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Dto\\Livro\\LivroResponse.cs",
               "RelativeToolTip": "Biblioteca\\Dto\\Livro\\LivroResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -78,39 +76,39 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Program.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Program.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Program.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Program.cs",
               "RelativeToolTip": "Biblioteca\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAawCwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T11:06:38.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BibliotecaController.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Controllers\\BibliotecaController.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Controllers\\BibliotecaController.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Controllers\\BibliotecaController.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Controllers\\BibliotecaController.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Controllers\\BibliotecaController.cs",
               "RelativeToolTip": "Biblioteca\\Controllers\\BibliotecaController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T11:05:45.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T11:05:45.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "BibliotecaService.cs",
-              "DocumentMoniker": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Services\\BibliotecaService.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Services\\BibliotecaService.cs",
               "RelativeDocumentMoniker": "Biblioteca\\Services\\BibliotecaService.cs",
-              "ToolTip": "C:\\Users\\Christian\\Documents\\Projects\\Biblioteca\\Biblioteca\\Services\\BibliotecaService.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\biblioteca-api-dotNet\\Biblioteca\\Services\\BibliotecaService.cs",
               "RelativeToolTip": "Biblioteca\\Services\\BibliotecaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T10:49:56.525Z"
+              "WhenOpened": "2024-02-20T10:49:56.525Z",
+              "EditorCaption": ""
             }
           ]
         }

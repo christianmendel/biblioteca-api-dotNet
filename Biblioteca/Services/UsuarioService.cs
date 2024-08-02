@@ -2,9 +2,9 @@
 using Biblioteca.Dto.Usuario;
 using Biblioteca.Mapper;
 using Biblioteca.Models;
-using Biblioteca.Validations.Notification;
 using MongoDB.Driver;
 using Biblioteca.Dto.token;
+using Biblioteca.Settings.Validations;
 
 namespace Biblioteca.Services
 {
